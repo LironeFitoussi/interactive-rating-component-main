@@ -9,6 +9,11 @@ body {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
     background-color: hsl(216, 12%, 8%);
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
@@ -20,7 +25,10 @@ button {
 }
 
 .main-container, .thank-you {
-
+    background-color:  hsl(213, 19%, 18%);
+    padding: 6vh;
+    border-radius: 2vw;
+    width: 70vw;
 }
 
 .attribution { 
