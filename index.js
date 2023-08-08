@@ -22,7 +22,8 @@ const rates = document.querySelectorAll(".btn");
 
 for (let i = 0; i < rates.length; i++) {
         rates[i].addEventListener("click", function() {
-            console.log(rates[i].innerHTML);
+            rating.innerHTML = rates[i].innerHTML;
         })
     ;
 }
+    
