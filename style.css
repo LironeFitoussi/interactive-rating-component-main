@@ -30,8 +30,7 @@ button {
     display: flex;
     gap: 2vh;
     flex-direction: column;
-    background-color:  hsl(213, 19%, 18%);
-    padding: 5vh;
+    background-image: linear-gradient(to bottom, var(--darkBlue-neutral-color), var(--darkBlue-second-color));    padding: 5vh;
     border-radius: 2.5vw;
     width: 30vw;
 }
