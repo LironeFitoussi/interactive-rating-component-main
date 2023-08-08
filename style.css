@@ -1,3 +1,4 @@
+/* WebPage General Settings */
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 * {
     margin: 0;
@@ -25,6 +26,7 @@ button {
     cursor: pointer;
 }
 
+/* Main Container */
 .main-container, .thank-you {
     background-color:  hsl(213, 19%, 18%);
     padding: 5vh;
@@ -56,7 +58,6 @@ button {
     justify-content: space-between;
     margin: 3vh 0;
 }
-
 
 .btn {
     width: 3rem;
@@ -99,6 +100,8 @@ button {
     color: hsl(25, 97%, 53%);
     background-color: #fff;
 }
+
+/* Thank You Container */
 
 .attribution { 
     font-size: 11px; text-align: center; 
