@@ -149,3 +149,10 @@ p.result {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (max-width: 425px) {
+    .main-container, .thank-you {
+        width: 85vw;
+        padding: 3vh;
+    }
+}
