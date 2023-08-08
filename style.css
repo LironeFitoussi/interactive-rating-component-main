@@ -8,6 +8,7 @@
 body {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
 }
 
 ul {
@@ -17,6 +18,11 @@ ul {
 button {
     font-family: inherit;
 }
+
+.main-container, .thank-you {
+
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
