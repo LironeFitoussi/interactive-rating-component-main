@@ -10,8 +10,8 @@ body {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
     background-color: hsl(216, 12%, 8%);
-    margin: 5vh;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -125,11 +125,20 @@ p.result {
 }
 
 .thank-you > p.message {
-    color: #fff;
+    color: hsl(217, 12%, 63%);
     text-align: center;
 }
+
+/* function classes */
+.hidden {
+    display: none;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
+    position: absolute;
+    bottom: 0;
+    color: #fff;
 }
 
 .attribution a { 
